@@ -26,16 +26,20 @@ Este proyecto es una visualización interactiva de la Tierra en 3D construida co
 ---
 
 ## Estructura de archivos
+
+```plaintext
 ├── index.html
 ├── index.js
-├── getFresnelMat.js # ShaderMaterial con efecto Fresnel
-├── getStarfield.js # Generador de estrellas en una esfera 3D
+├── getFresnelMat.js         # ShaderMaterial con efecto Fresnel
+├── getStarfield.js          # Generador de estrellas en una esfera 3D
 ├── assets/
-│ ├── 00_earthmap1k.jpg # Textura del mapa de la Tierra
-│ ├── 03_earthlights1k.jpg # Mapa de luces nocturnas
-│ ├── 06_earthcloudmaptrans4k.jpg# Textura de nubes con transparencia
-│ └── stars/circle.png # Textura circular para las estrellas
+│   ├── 00_earthmap1k.jpg            # Textura del mapa de la Tierra
+│   ├── 03_earthlights1k.jpg         # Mapa de luces nocturnas
+│   ├── 06_earthcloudmaptrans4k.jpg # Textura de nubes con transparencia
+│   └── stars/
+│       └── circle.png               # Textura circular para las estrellas
 
+```
 ---
 
 ## Cómo ejecutarlo
